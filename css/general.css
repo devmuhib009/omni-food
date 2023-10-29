@@ -12,6 +12,7 @@ Bold -- 700
 
 ## Border Radius
 9px
+11px
 
 ## Spacing System
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -174,4 +175,8 @@ body {
 .arrow-down {
   height: 16px;
   width: 16px;
+}
+
+strong {
+  font-weight: 500;
 }
