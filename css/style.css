@@ -472,24 +472,34 @@
   margin-top: 4.8rem;
 }
 
-.btn--full {
-  background-color: #e67e22;
-  color: #fff;
-  padding: 1.2rem 3.2rem;
-  border: none;
-  border-radius: 9px;
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ********* Features ********** */
+
+.feature {
+  padding: 1.6rem;
+}
+.feature-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
   font-size: 1.8rem;
-  font-weight: 600;
-  margin-right: 1.6rem;
-  transition: all 0.3s;
-}
-
-.btn--full:link,
-.btn--full:visited {
-  background-color: #e67e22;
-}
-
-.btn--full:hover,
-.btn--full:active {
-  background-color: #cf711f;
+  line-height: 1.8;
 }
