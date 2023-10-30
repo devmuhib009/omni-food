@@ -297,29 +297,6 @@
   font-size: 1.8rem;
 }
 
-.link {
-  text-decoration: none;
-  color: #e67e22;
-  font-size: 1.8rem;
-  font-weight: 600;
-  transition: all 0.3s;
-}
-
-.link:link,
-.link:visited {
-  color: #e67e22;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
-  display: inline-block;
-  transition: all 0.3s;
-}
-
-.link:hover,
-.link:active {
-  color: #cf711f;
-  border-bottom: 1px solid transparent;
-}
-
 /*******************************/
 /* SECTION TESTIMONIALS */
 /*******************************/
@@ -519,9 +496,6 @@
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
-
-  /* temporary height */
-  height: 50rem;
 }
 
 .cta-text-box {
